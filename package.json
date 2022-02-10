@@ -17,10 +17,20 @@
     "@strapi/strapi": "4.0.6",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
-    "sqlite3": "5.0.2"
+    "sqlite3": "5.0.2",
+    "strapi": "^3.6.8",
+    "strapi-admin": "^3.6.8",
+    "strapi-connector-bookshelf": "^3.6.8",
+    "strapi-plugin-content-manager": "^3.6.8",
+    "strapi-plugin-content-type-builder": "^3.6.8",
+    "strapi-plugin-email": "^3.6.8",
+    "strapi-plugin-graphql": "^3.6.8",
+    "strapi-plugin-upload": "^3.6.8",
+    "strapi-plugin-users-permissions": "^3.6.8",
+    "strapi-utils": "^3.6.8"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "downloadacar"
   },
   "strapi": {
     "uuid": "dabadea6-b864-4e15-af17-db4b9b9f3c4a"
