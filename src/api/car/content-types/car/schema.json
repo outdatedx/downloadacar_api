@@ -25,15 +25,15 @@
         "images"
       ]
     },
-    "model_download_file": {
+    "modeldownloadfile": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": true,
       "allowedTypes": [
         "files"
       ]
     },
-    "three_d_model": {
+    "threedmodel": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -50,6 +50,10 @@
     "slug": {
       "type": "uid",
       "targetField": "Name",
+      "required": true
+    },
+    "author": {
+      "type": "string",
       "required": true
     }
   }
