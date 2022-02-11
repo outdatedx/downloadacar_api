@@ -9,7 +9,7 @@ module.exports = ({ env }) => {
         params: {
           Bucket: env("AWS_BUCKET");
         }
-        cdn: process.env("AWS_CLOUDFRONT");
+        cdn: env("AWS_CLOUDFRONT");
       }
     }
   }
