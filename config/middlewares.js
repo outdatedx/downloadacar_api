@@ -1,5 +1,14 @@
 module.exports = [
-  // ...
+  "strapi::errors",
+  "strapi::security",
+  "strapi::cors",
+  "strapi::poweredBy",
+  "strapi::logger",
+  "strapi::query",
+  "strapi::body",
+  "strapi::session",
+  "strapi::favicon",
+  "strapi::public",
   {
     name: "strapi::security",
     config: {
@@ -11,18 +20,17 @@ module.exports = [
             "'self'",
             "data:",
             "blob:",
-            "downloadacar2.s3.us-west-1.amazonaws.com",
+            "yourBucketName.s3.yourRegion.amazonaws.com",
           ],
           "media-src": [
             "'self'",
             "data:",
             "blob:",
-            "downloadacar2.s3.us-west-1.amazonaws.com",
+            "yourBucketName.s3.yourRegion.amazonaws.com",
           ],
           upgradeInsecureRequests: null,
         },
       },
     },
   },
-  // ...
 ];
