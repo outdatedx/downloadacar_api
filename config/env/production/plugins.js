@@ -12,4 +12,7 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  graphql: {
+    playgroundAlways: process.env.NODE_ENV === "development",
+  },
 });
