@@ -40,6 +40,7 @@ module.exports = [
         enabled: true,
         origin: ["*"],
         headers: ["*"],
+        methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"],
       },
     },
   },
