@@ -30,10 +30,15 @@ module.exports = [
           ],
           upgradeInsecureRequests: null,
         },
-        cors: {
-          enabled: true,
-          origin: ["*"],
-        },
+      },
+    },
+  },
+  {
+    name: "strapi::cors",
+    config: {
+      cors: {
+        enabled: true,
+        origin: ["*"],
       },
     },
   },
