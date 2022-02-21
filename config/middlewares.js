@@ -30,6 +30,10 @@ module.exports = [
           ],
           upgradeInsecureRequests: null,
         },
+        cors: {
+          enabled: true,
+          origin: ["*"],
+        },
       },
     },
   },
