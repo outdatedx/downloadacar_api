@@ -18,14 +18,14 @@ module.exports = [
           "connect-src": ["'self'", "https://"],
           "img-src": [
             "'self'",
-            "data:",
+            "data:  downloadacar2.s3.us-west-1.amazonaws.com, amazonaws.com",
             "blob: downloadacar2.s3.us-west-1.amazonaws.com, amazonaws.com",
             "downloadacar2.s3.us-west-1.amazonaws.com",
             "amazonaws.com",
           ],
           "media-src": [
             "'self'",
-            "data:",
+            "data:  downloadacar2.s3.us-west-1.amazonaws.com, amazonaws.com",
             "blob: downloadacar2.s3.us-west-1.amazonaws.com, amazonaws.com",
             "downloadacar2.s3.us-west-1.amazonaws.com",
             "amazonaws.com",
