@@ -13,6 +13,13 @@ module.exports = ({ env }) => ({
     },
   },
   graphql: {
-    playgroundAlways: process.env.NODE_ENV === "development",
+    endpoint: "/graphql",
+    shadowCRUD: true,
+    playgroundAlways: true,
+    depthLimit: 7,
+    amountLimit: 2500,
+    apolloServer: {
+      tracing: false,
+    },
   },
 });
