@@ -3,6 +3,6 @@
   "tracing": false,
   "shadowCRUD": true,
   "playgroundAlways": true,
-  "depthLimit": 7,
-  "amountLimit": 2500
+  "depthLimit": 1000,
+  "amountLimit": 10000
 }

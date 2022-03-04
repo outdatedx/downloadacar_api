@@ -12,9 +12,9 @@ export default {
         "Auth.form.username.placeholder": "e.g. outdated",
         "Content Manager": "Content Editor",
         "HomePage.helmet.title": "DOWNLOAD A CAR",
-        "Auth.form.email.placeholder": "e.g. outdated@teamparallel.gg",
-        "Auth.form.firstname.placeholder": "e.g. Danny",
-        "Auth.form.lastname.placeholder": "e.g. Parallel",
+        "Auth.form.email.placeholder": "e.g. outdated@dac.com",
+        "Auth.form.firstname.placeholder": "e.g. outdated",
+        "Auth.form.lastname.placeholder": "e.g. outdated",
         "HomePage.welcome.congrats.content":
           "Welcome to the DOWNLOAD A CAR Backend.",
         "HomePage.welcome.congrats.content.bold": "",
