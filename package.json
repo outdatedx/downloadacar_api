@@ -9,28 +9,24 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-graphql": "4.1.0",
-    "@strapi/plugin-i18n": "4.1.0",
-    "@strapi/plugin-users-permissions": "4.1.0",
-    "@strapi/provider-upload-aws-s3": "^4.1.0",
+    "@strapi/plugin-graphql": "4.5.3",
+    "@strapi/plugin-i18n": "4.5.3",
+    "@strapi/plugin-users-permissions": "4.5.3",
+    "@strapi/provider-upload-aws-s3": "^4.5.3",
     "@strapi/strapi": "^4.5.3",
-    "install-peers": "^1.0.3",
+    "install-peers": "^1.0.4",
     "pg": "^8.8.0",
     "pg-connection-string": "^2.5.0",
-    "sqlite3": "5.0.2",
+    "sqlite3": "5.1.2",
     "strapi": "^3.6.11",
-    "strapi-plugin-slugify": "^2.2.1",
-    "strapi-provider-upload-aws-s3": "^3.6.8"
+    "strapi-plugin-slugify": "^2.3.2",
+    "strapi-provider-upload-aws-s3": "^3.6.11"
   },
   "author": {
     "name": "downloadacar"
   },
   "strapi": {
     "uuid": "dabadea6-b864-4e15-af17-db4b9b9f3c4a"
-  },
-  "engines": {
-    "node": ">=12.x.x <=16.x.x",
-    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
